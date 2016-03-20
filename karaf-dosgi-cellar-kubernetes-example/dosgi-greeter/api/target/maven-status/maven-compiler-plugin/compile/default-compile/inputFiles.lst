@@ -1,0 +1,5 @@
+/home/kalix/java-develop/project/karaf-dosgi-cellar-kubernetes-example/dosgi-greeter/api/src/main/java/org/apache/karaf/cellar/samples/dosgi/greeter/api/Greet.java
+/home/kalix/java-develop/project/karaf-dosgi-cellar-kubernetes-example/dosgi-greeter/api/src/main/java/org/apache/karaf/cellar/samples/dosgi/greeter/api/Greeter.java
+/home/kalix/java-develop/project/karaf-dosgi-cellar-kubernetes-example/dosgi-greeter/api/src/main/java/org/apache/karaf/cellar/samples/dosgi/greeter/api/MyEvent.java
+/home/kalix/java-develop/project/karaf-dosgi-cellar-kubernetes-example/dosgi-greeter/api/src/main/java/org/apache/karaf/cellar/samples/dosgi/greeter/api/GreeterEvent.java
+/home/kalix/java-develop/project/karaf-dosgi-cellar-kubernetes-example/dosgi-greeter/api/src/main/java/org/apache/karaf/cellar/samples/dosgi/greeter/api/GreetResponse.java

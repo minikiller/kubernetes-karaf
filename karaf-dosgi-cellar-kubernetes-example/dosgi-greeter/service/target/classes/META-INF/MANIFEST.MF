@@ -1,0 +1,23 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1458202622991
+Build-Jdk: 1.8.0_71
+Built-By: kalix
+Bundle-Blueprint: OSGI-INF/blueprint/blueprint.xml
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Cellar :: Samples :: DOSGi Greeter :: Servi
+ ce
+Bundle-SymbolicName: org.flaviof.samples.karaf.greeter.greeter-service
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.karaf.cellar.samples.dosgi.greeter.service;ve
+ rsion="0.1.0.SNAPSHOT";uses:="org.apache.karaf.cellar.samples.dosgi.gre
+ eter.api"
+Export-Service: org.apache.karaf.cellar.samples.dosgi.greeter.api.Greete
+ r;service.exported.interfaces="*"
+Implementation-Version: 0.1-SNAPSHOT
+Import-Package: org.apache.karaf.cellar.samples.dosgi.greeter.api;versio
+ n="[0.1,1)",org.apache.karaf.cellar.core,org.slf4j;version="[1.7,2)",or
+ g.osgi.service.blueprint;version="[1.0.0,2.0.0)"
+Include-Resource: {OSGI-INF/blueprint/blueprint.xml=src/main/resources/O
+ SGI-INF/blueprint/blueprint.xml}
+Tool: Bnd-2.1.0.20130426-122213

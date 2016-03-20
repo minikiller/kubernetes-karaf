@@ -1,0 +1,13 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1458202620540
+Build-Jdk: 1.8.0_71
+Built-By: kalix
+Bundle-ManifestVersion: 2
+Bundle-Name: Apache Karaf :: Cellar :: Samples :: DOSGi Greeter :: API
+Bundle-SymbolicName: org.flaviof.samples.karaf.greeter.greeter-api
+Bundle-Version: 0.1.0.SNAPSHOT
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.karaf.cellar.samples.dosgi.greeter.api;versio
+ n="0.1.0.SNAPSHOT"
+Implementation-Version: 0.1-SNAPSHOT
+Tool: Bnd-2.1.0.20130426-122213

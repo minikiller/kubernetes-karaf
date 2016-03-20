@@ -1,0 +1,5 @@
+org/apache/karaf/cellar/samples/dosgi/greeter/api/Greeter.class
+org/apache/karaf/cellar/samples/dosgi/greeter/api/GreeterEvent.class
+org/apache/karaf/cellar/samples/dosgi/greeter/api/GreetResponse.class
+org/apache/karaf/cellar/samples/dosgi/greeter/api/MyEvent.class
+org/apache/karaf/cellar/samples/dosgi/greeter/api/Greet.class

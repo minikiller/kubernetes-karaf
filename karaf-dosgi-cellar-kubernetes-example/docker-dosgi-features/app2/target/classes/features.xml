@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<features>
+
+  <repository>mvn:org.apache.karaf.cellar/apache-karaf-cellar/4.0.0/xml/features</repository>
+    
+  <feature name="app2" version="0.1-SNAPSHOT" install="auto">
+    <feature>cellar-kubernetes</feature>
+    <feature>cellar</feature>
+    <feature>cellar-dosgi</feature>
+
+
+    <bundle>mvn:org.flaviof.samples.karaf.greeter/greeter-api/0.1-SNAPSHOT</bundle>
+    <bundle>mvn:org.flaviof.samples.karaf.greeter/greeter-client/0.1-SNAPSHOT</bundle>
+
+    
+  </feature>
+
+</features>
