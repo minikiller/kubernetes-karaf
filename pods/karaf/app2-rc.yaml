@@ -1,0 +1,38 @@
+apiVersion: v1
+kind: ReplicationController
+metadata:
+  name: app2
+  namespace: default
+  labels:
+    name: app2
+spec:
+  replicas: 1
+  selector:
+    name: app2
+  template:
+    metadata:
+      labels:
+        name: app2
+        cellar: "true"
+    spec:
+      containers:
+      - name: app2
+        image: 192.168.1.130:5000/kalix/app2:latest
+        imagePullPolicy: Always
+        volumeMounts:
+          - name : maven-repo
+            mountPath: "/root/.m2/repository"
+            readOnly: false
+        ports:
+          - name: hazelcast
+            containerPort: 5701
+          - name: http
+            containerPort: 8181
+          - name: jolokia
+            containerPort: 8778
+      volumes:
+      - name: maven-repo
+        persistentVolumeClaim:
+          claimName: nfs
+
+
