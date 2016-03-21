@@ -1,4 +1,4 @@
-FROM trumanwoo/docker-jebian
+FROM 172.18.82.3:5000/docker-jre8
 
 MAINTAINER Flávio Ferreira <flaviommferreira@gmail.com>
 

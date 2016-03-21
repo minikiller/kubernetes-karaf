@@ -1,4 +1,4 @@
-FROM kalix/karaf
+FROM 172.18.82.3:5000/kalix/karaf
 
 # Add hazelcast configuration to be used by cellar
 ADD config/hazelcast.xml $KARAF_HOME/etc/

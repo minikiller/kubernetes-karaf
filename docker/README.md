@@ -12,7 +12,7 @@ Lean karaf Docker image
 ## Build image (optional)
 
 ```
-docker build --rm -t=kalix/karaf .
+docker build --rm -t=172.18.82.3:5000/kalix/karaf .
 ```
 
 ## Running karaf image
